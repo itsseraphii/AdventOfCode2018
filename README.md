@@ -20,8 +20,8 @@ I created this python AoC framework to handle every basic action that you need t
 This framework was created using ```python 3.8.10```, i did not test with any other version
 
 For it to work, you need to have two packages installed ```requests``` and ```python-dotenv``` which you can install using this command : 
-```pip install requests python-dotenv```
-*Of course you need to have pip installed also*
+```python3 -m pip install requests python-dotenv```
+*Of course you need to have pip installed*
 
 ## Installation
 1. Clone the repo
