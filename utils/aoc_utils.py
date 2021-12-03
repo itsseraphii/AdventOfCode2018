@@ -43,21 +43,21 @@ class AOCDay:
         self.downloadInput()
 
         # Common thinggy
-        startTime = time.time()
+        startTime = time.time()*1000
         self.common()
-        time0 = time.time() - startTime
+        time0 = round(time.time()*1000 - startTime, 2)
 
         # Part 1
-        startTime = time.time()
+        startTime = time.time()*1000
         answer1 = self.part1()
-        time1 = time.time() - startTime
+        time1 = round(time.time()*1000 - startTime, 2)
         
         # Part 2
-        startTime = time.time()
+        startTime = time.time()*1000
         answer2 = self.part2()
-        time2 = time.time() - startTime
+        time2 = round(time.time()*1000 - startTime, 2)
 
-        totalTime = time0 + time1 + time2
+        totalTime = round(time0 + time1 + time2, 2)
 
         # Writing output
         self.writeOutput(

@@ -3,3 +3,4 @@ utils/__pycache__
 inputs/
 outputs/
 .env
+.DS_STORE
