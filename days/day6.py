@@ -5,12 +5,8 @@ class Day6(AOCDay):
     def common(self):
         # Array for possible fish internal values
         # Position in index means the # of fish at that value
-        self.lampFishSimulation = []
-        self.lampFishSimulationP2 = []
-        
-        for i in range(9):
-            self.lampFishSimulation.append(0)
-            self.lampFishSimulationP2.append(0)
+        self.lampFishSimulation = [0] * 9
+        self.lampFishSimulationP2 = [0] * 9
 
         lanternFish = self.inputData[0].split(',')
 
