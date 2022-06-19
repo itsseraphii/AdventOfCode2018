@@ -16,7 +16,7 @@ class AOCDay:
     inputFilename = ""
     outputFilename = ""
     sessionToken = ""
-    inputData = None
+    inputData = []
 
 
     def __init__(self, year, dayNumber, sessionToken):
@@ -92,8 +92,6 @@ class AOCDay:
 
 
     def readInput(self):
-        self.inputData = []
-
         # Opening filestream
         file = open(self.inputPath, "r")
 
